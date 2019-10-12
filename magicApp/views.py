@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from mtgsdk import Card, Supertype, Subtype, Type
 
 def index(request):
 	return render(request, 'app/index.html', {})
