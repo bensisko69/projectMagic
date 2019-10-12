@@ -77,10 +77,11 @@ WSGI_APPLICATION = 'projectMAgic.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'magic',
+        'NAME' : 'bensisko$magic',
         'USER' : 'bensisko',
-        'PASSWORD' : '18041986.'
+        'PASSWORD' : '18041986.',
         'HOST' : 'bensisko.mysql.pythonanywhere-services.com',
+        'PORT' : '3306',
     }
 }
 

@@ -17,6 +17,6 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-	url('magic/', include('magicApp.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^magic/', include('magicApp.urls')),
 ]
