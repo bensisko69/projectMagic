@@ -18,23 +18,23 @@
 	<div class="container">
 		<ul class="nav">
 			<li class="nav-item">
-		    	<a class="nav-link" href="{% url 'index' %}">Home</a>
+		    	<a class="nav-link" href="">Home</a>
 		  	</li>
 		  	<li class="nav-item">
-		    	<a class="nav-link" href="{% url 'search' %}">Rechercher</a>
+		    	<a class="nav-link" href="">Rechercher</a>
 		  	</li>
 		  	{% if user.is_authenticated %}
 			  	<li class="nav-item">
-			    	<a class="nav-link" href="{% url 'logoutUser' %}">logout</a>
+			    	<a class="nav-link" href="">logout</a>
 			  	</li>
 		  	{% else %}
 			  	<li class="nav-item">
-			    	<a class="nav-link" href="{% url 'loginPage' %}">login</a>
+			    	<a class="nav-link" href="">login</a>
 			  	</li>
 		  	{% endif %}
 		  	{% if user.is_authenticated %}
 			  	<li class="nav-item">
-			    	<a class="nav-link" href="{% url 'decks' %}">Mes decks</a>
+			    	<a class="nav-link" href="">Mes decks</a>
 			  	</li>
 		  	{% endif %}
 		</ul>
